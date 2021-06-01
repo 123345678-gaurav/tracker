@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+.Expenseitem_body{
+    width: 100vw;
+}
+.Expenseitem_container{
+    width: 95%;
+    display: grid;
+    background-color: rgb(173, 166, 166);
+    border-radius: 8px;
+    border: 2px solid black;
+    grid-template-columns: repeat(4 , 25%);
+    margin: auto;
+    margin-top: 10px;
+}
+.Expenseitem_date{
+    font-size: 1rem;
+    display: inline-flex;
+    padding: 30px;
+    margin: 10px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+.Expenseitem_name{
+    font-weight: bolder;
+    font-size: 1rem;
+    display: inline-flex;
+    padding: 10px;
+    margin: 10px;
+    align-self: center;
+    justify-self: center;
+    color: white;
+}
+.Expenseitem_price{
+    background-color: purple;
+    border: 2px solid white;
+    border-radius: 8px;
+    align-self: center;
+    justify-self: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+}
+.ChangeTitle_button{
+    width: 80%;
+    height: 50px;
+    align-self: center;
+    justify-self: center;
+    border: none;
+    border-radius: 5px;
+}
+

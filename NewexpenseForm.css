@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+.expenseform_container{
+    display: grid;
+    background-color: blueviolet;
+    margin: auto;
+    grid-template-columns: 50% 50%;
+    border-radius: 8px;
+    padding: 25px;
+}
+input , label{
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+}
+label{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.SubmitButton{
+    padding: 8px;
+    width: 50%;border-radius: 5px;
+    border: none;
+    background-color: greenyellow;
+    font-weight: bolder;
+    grid-column-start: 2;
+    margin: 5px;
+    margin-top: 10px;
+}
